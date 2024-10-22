@@ -1,0 +1,62 @@
+img {
+    width: 430px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+body{
+    background-color: rgb(248, 248, 231);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.firstFilm{
+    font-family: 'Gropled';
+}
+
+.firstDescription{
+    text-align:justify;
+}
+
+.secondFilm{
+    font-family: 'XTypewritter';
+}
+.secondDescription{
+    text-align:center;
+}
+
+.thirdFilm{
+    font-family: 'Dudka';
+}
+.thirdDescription{
+    text-align: right;
+}
+.thirdFilmWeight{
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gropled';
+    src: url('font/ofont.ru_Gropled.ttf');
+}
+@font-face {
+    font-family: 'XTypewritter';
+    src: url('font/ofont.ru_XTypewriter.ttf');
+}
+@font-face {
+    font-family: 'Dudka';
+    src: url('font/ofont.ru_Dudka.ttf');
+}
+
+.container{
+    width:1400px;
+    margin: 0 auto;
+}
